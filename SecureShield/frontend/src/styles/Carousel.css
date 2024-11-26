@@ -1,0 +1,12 @@
+.header-details {
+  font-weight: bolder;
+  font-style: italic;
+  color: rgb(255, 166, 0);
+  text-decoration: underline;
+}
+
+.slides-details {
+  color: black;
+  font-weight: bolder;
+  font-size: 17px;
+}

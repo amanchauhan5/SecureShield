@@ -1,0 +1,38 @@
+/* NavigationBar.css */
+.nav-body {
+  margin: 0;
+  padding: 10px 10px;
+  font-family: 'sans-serif';
+}
+
+.navbar {
+  background-color: #343a40 !important;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #FFD700 !important;
+}
+
+.navbar-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-left: -80px;
+}
+
+.nav-link {
+  color: #FFFFFF !important;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+  color: #FFD700 !important;
+}
+
+#basic-navbar-nav {
+  margin-right: -90px;
+}

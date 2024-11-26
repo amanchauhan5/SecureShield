@@ -1,0 +1,50 @@
+/* Cards.css */
+.cards-container {
+  padding: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.cards-container .card-img {
+  height: 300px;
+  /* Adjust the height as needed */
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-text {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.card-box {
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card-box:hover {
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0, 0, 255, 0.75);
+}
+
+.card-title {
+  border: solid;
+  width: 180px;
+  padding-block: 6px;
+  background-color: #4066ff;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  transition: padding-block 0.3s, background-color 0.15s, border-radius 0.15s ease-in-out;
+  cursor: pointer;
+  margin-left: -2px;
+}
+
+.card-title:hover {
+  padding-block: 8px;
+  background-color: #2047e6;
+  border-radius: 8px;
+}

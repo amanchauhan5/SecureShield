@@ -1,0 +1,26 @@
+/* Footer.css */
+.footer {
+  background-color: #343a40 !important;
+  color: #FFFFFF;
+  padding: 1rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer .navbar {
+  margin: 0;
+  width: 100%;
+}
+
+.footer .navbar-text {
+  font-size: 0.9rem;
+  color: #FFFFFF !important;
+}
+
+@media (max-width: 767px) {
+  .footer .navbar-text {
+    font-size: 0.8rem;
+  }
+}

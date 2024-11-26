@@ -1,0 +1,42 @@
+.create {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.create h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create .form-control {
+  margin-bottom: 10px;
+}
+
+.create button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.create button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+@media screen and (max-width: 768px) {
+  .create {
+    max-width: 100%;
+    padding: 10px;
+  }
+}

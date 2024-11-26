@@ -1,0 +1,39 @@
+.header-news .bg-image {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  color: #FFD600;
+}
+
+.header-news{
+  margin-top: 20px;
+}
+.header-news h1,
+.header-news p,
+.header-news hr,
+.header-news h2 {
+  color: #FFD600;
+}
+
+@media (max-width: 768px) {
+  .header-news h1 {
+    font-size: 2rem;
+  }
+
+  .header-news p,
+  .header-news h2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-news h1 {
+    font-size: 1.5rem;
+  }
+
+  .header-news p,
+  .header-news h2 {
+    font-size: 0.875rem;
+  }
+}
